@@ -7,7 +7,7 @@ composer require mphpmaster/laravel-nova-clone-model
 ```
 
 ## Usage
-```injectablephp
+```php
 use MPhpMaster\LaravelNovaCloneModel\CloneModel;
 
 CloneModel::make()
@@ -31,9 +31,9 @@ CloneModel::make()
 
 ![Demo Image1.2](https://live.staticflickr.com/65535/49716480142_078255a179_k.jpg)
 
-**You can customize the Clone model button text? **
+** You can customize the Clone model button text? **
 
-```injectablephp
+```php
 CloneModel::make()
     ->withMeta([
         .... include other metas .... ,
@@ -51,7 +51,7 @@ CloneModel::make()
 ***? Use title, body, confirm_button_text and cancel_button_text metafor customization***
 
 ![Demo image2](https://live.staticflickr.com/65535/49711939342_756c8d63ac_k.jpg)
-```injectablephp
+```php
 CloneModel::make()
     ->withMeta([
         .... include other metas .... ,
